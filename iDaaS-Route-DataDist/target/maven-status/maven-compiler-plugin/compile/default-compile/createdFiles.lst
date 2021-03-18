@@ -1,0 +1,5 @@
+com/input/data/transform/ConfigProperties.class
+META-INF/spring-configuration-metadata.json
+com/input/data/transform/BuildeventTransform.class
+com/input/data/transform/Application.class
+com/input/data/transform/CamelConfiguration.class

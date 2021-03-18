@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.input.data.transform.ConfigProperties",
+      "name": "idaas",
+      "type": "com.input.data.transform.ConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.input.data.transform.ConfigProperties",
+      "name": "idaas.kafka-brokers",
+      "type": "java.lang.String"
+    }
+  ]
+}
