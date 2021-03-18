@@ -66,7 +66,7 @@ public class CamelConfiguration extends RouteBuilder {
 
     private String getFileSinkPath(String filename){
         String directoryPath="/tmp/filesink/";
-        return "file://"+directoryPath+"?filename="+
+        return "file://"+directoryPath+"?fileName="+
                 filename +"&charset=utf-8";
     }
     /*
