@@ -134,7 +134,7 @@ public class CamelConfiguration extends RouteBuilder {
                 
                 .setProperty("processname").constant("MTier")
                 .setProperty("auditdetails").constant("Allergy Intollerance to Enterprise By Data Type middle tier")
-                .wireTap("direct:auditing")
+                //.wireTap("direct:auditing")
                 // Enterprise Message By Type
                 .convertBodyTo(String.class)
                 .to(getFileSinkPath("test_file.txt"))
