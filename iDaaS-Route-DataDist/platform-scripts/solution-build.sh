@@ -9,5 +9,5 @@ echo "Maven Build Completed"
 mvn package
 echo "Maven Release Completed"
 cd target
-cp input-data-*.jar input-data-transform-1.0.jar
+cp input-data-*.jar input-data-filesink-1.0.jar
 echo "Copied Release Specific Version to General version"
